@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Private Offline AI</title>
+<meta name="description" content="Privacy policy for Private Offline AI: no account, no analytics, no servers. The AI runs on your iPhone and your conversations stay there.">
+<style>
+  :root{
+    --bg:#FFFFFF; --surface:#FBF6F9; --stroke:#EDE2E9;
+    --text:#14090F; --text2:#5E5058; --text3:#8E8189;
+    --accent:#BE185D; --accent2:#EC4899;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0C0C0E; --surface:#161215; --stroke:#2A2028;
+      --text:#F5F2F4; --text2:#A69AA1; --text3:#746A70;
+      --accent:#EC4899; --accent2:#F472B6;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:56px 20px 96px}
+  .mark{font-weight:800;font-size:15px;letter-spacing:-.2px}
+  .mark span{background:linear-gradient(135deg,var(--accent2),var(--accent));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  h1{font-size:34px;line-height:1.15;letter-spacing:-.8px;margin:26px 0 10px}
+  h2{font-size:19px;letter-spacing:-.3px;margin:38px 0 10px}
+  h3{font-size:16px;margin:22px 0 6px}
+  p,li{color:var(--text2)}
+  .lede{font-size:18px;color:var(--text)}
+  .card{background:var(--surface);border:1px solid var(--stroke);border-radius:16px;
+    padding:18px 20px;margin:22px 0}
+  .card strong{color:var(--text)}
+  ul{padding-left:20px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--stroke);vertical-align:top}
+  th{color:var(--text3);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.4px}
+  td{color:var(--text2)}
+  .foot{margin-top:56px;padding-top:22px;border-top:1px solid var(--stroke);
+    color:var(--text3);font-size:13.5px}
+  .foot a{color:var(--accent);margin-right:16px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mark">Private <span>Offline AI</span></div>
+
+  <h1>Privacy Policy</h1>
+  <p class="lede">Private Offline AI has no account, no analytics and no server.
+  The AI model is inside the app and runs on your iPhone, so your conversations
+  are never sent anywhere by default.</p>
+  <p>Last updated: 18 September 2026.</p>
+
+  <div class="card">
+    <strong>The short version.</strong>
+    <p style="margin-bottom:0">We do not operate a server, and we receive nothing
+    from the app — not your messages, not your documents, not usage statistics,
+    not even a crash report. A few features can reach the internet, and every one
+    of them is off until you switch it on. They are listed below, and none of them
+    send anything to us.</p>
+  </div>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> The app contains no analytics, no crash reporting,
+  no advertising and no third-party SDKs of any kind. There is no account to
+  create and no identifier assigned to you.</p>
+
+  <h2>What the app stores, and where</h2>
+  <p>Everything lives in the app's own storage on your iPhone, protected by iOS
+  data protection. Deleting the app deletes all of it.</p>
+  <table>
+    <tr><th>What</th><th>Where</th></tr>
+    <tr><td>Conversations and chat history</td><td>The app's Documents folder</td></tr>
+    <tr><td>Notes, to-dos, transcripts</td><td>Documents folder and iOS app preferences</td></tr>
+    <tr><td>Saved images and generated games</td><td>The app's Documents folder</td></tr>
+    <tr><td>AI models you import (.gguf)</td><td>The app's Documents folder</td></tr>
+    <tr><td>Settings — theme colour, light/dark, instructions</td><td>iOS app preferences</td></tr>
+    <tr><td>API keys and mail credentials you enter</td><td>iOS app preferences (see below)</td></tr>
+  </table>
+  <p>The app's Documents folder is visible to you under <strong>On My iPhone →
+  Private Offline AI</strong> in the Files app. That is deliberate, so you can get
+  your own data out. It also means anything with access to your unlocked device
+  and the Files app can read it.</p>
+
+  <h3>Credentials</h3>
+  <p>If you connect a cloud AI provider or an email account, the key or password
+  you enter is stored in the app's private preferences on your device, protected
+  by iOS data protection. It is used only to talk to that provider directly. It is
+  never sent to us and never shared with anyone else. For email we recommend using
+  an app-specific password rather than your main account password, and revoking it
+  from your provider if you stop using the feature.</p>
+
+  <h2>When the app uses the internet</h2>
+  <p>The core experience — chatting with the built-in model, reading your
+  documents and images, notes, to-dos and transcription — works with the device in
+  Airplane Mode. These are the only paths that leave your phone, and each one is
+  started by you:</p>
+  <table>
+    <tr><th>Feature</th><th>What is sent, and to whom</th></tr>
+    <tr><td>Web search (the globe button)</td>
+        <td>Your search terms go to DuckDuckGo, Bing or Google to fetch results. Your conversation is not sent.</td></tr>
+    <tr><td>In-app browser</td>
+        <td>Ordinary web browsing. The sites you visit see what any browser would show them.</td></tr>
+    <tr><td>AI Gallery image search</td>
+        <td>Your image search terms go to Bing.</td></tr>
+    <tr><td>Mail</td>
+        <td>The app connects directly to your provider over IMAP and SMTP using the credentials you entered. Nothing passes through us.</td></tr>
+    <tr><td>A cloud AI provider you add yourself</td>
+        <td>If you switch from the on-device model to ChatGPT, Claude, Gemini, Groq, Mistral, DeepSeek, Qwen or a custom endpoint, that conversation is sent to that provider under your own key and their privacy policy applies.</td></tr>
+  </table>
+  <p>The on-device model is the default. Nothing above happens unless you turn it
+  on, and turning it off stops it.</p>
+
+  <h2>Permissions the app asks for</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td>Camera</td><td>To photograph something for the AI to look at. The photo stays on the device.</td></tr>
+    <tr><td>Photo library</td><td>To pick an existing image to analyse, and to save images you choose to keep.</td></tr>
+    <tr><td>Microphone and Speech Recognition</td><td>Voice input and transcription.</td></tr>
+  </table>
+  <p>Each is requested the first time you use the feature, and the app works
+  without granting any of them.</p>
+
+  <h2>Children</h2>
+  <p>The app is a general-audience product and is not directed at children under
+  13. Because we collect nothing, we hold no information about anyone, including
+  children.</p>
+
+  <h2>Your rights</h2>
+  <p>There is no data of yours for us to hand over, correct or delete, because we
+  never receive any. Your own copy is in the app and in the Files app, and you can
+  export or delete it yourself at any time. Deleting the app removes everything.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If a future version of the app sends anything anywhere new, this page and the
+  App Store privacy label will be updated before that version ships.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy:
+  <a href="mailto:sivavimelrajhen@gmail.com">sivavimelrajhen@gmail.com</a></p>
+
+  <div class="foot">
+    <a href="mailto:sivavimelrajhen@gmail.com">sivavimelrajhen@gmail.com</a>
+    <p style="margin-top:14px">Private Offline AI · Built with Llama. Llama 3.2 is
+    licensed under the Llama 3.2 Community License, © Meta Platforms, Inc.
+    All rights reserved.</p>
+  </div>
+</div>
+</body>
+</html>
